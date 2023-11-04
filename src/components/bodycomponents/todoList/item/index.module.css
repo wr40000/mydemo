@@ -1,0 +1,19 @@
+.container{
+    background: linear-gradient(90deg, #5BB1FF, #BD34FE);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 70%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+.delete{
+    display:none;
+}
+.delete:hover{
+    display:block;
+}

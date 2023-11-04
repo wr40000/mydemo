@@ -1,0 +1,12 @@
+.hello{
+    background: linear-gradient(90deg, #5BB1FF, #BD34FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Helvetica;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    width: 20rem;
+    height: 5rem;
+    padding-left: 1rem;
+    
+}

@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: #F6F6F7;
+    color: #3c3c43c7;
+    display: flex;
+    /* y轴 */
+    align-items: start;
+    /* x */
+    justify-content: start;
+    font-size: 1.8rem;
+}
