@@ -1,5 +1,6 @@
 .container{
-    background: linear-gradient(90deg, #5BB1FF, #BD34FE);
+    background: #E7E8EC;
+    color: #BD34FE;
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
     border-radius: 5px;
@@ -8,12 +9,38 @@
     height: 3.5rem;
     display: flex;
     align-items: center;
+    transition: all 0.5s linear;
     justify-content: space-between;
     margin-bottom: 0.4rem;
+    /* clip-path: inset(0 80% 0 0); */
 }
-.delete{
-    display:none;
+.container:hover{
+    /* clip-path: inset(0 0 0 0); */
+    background: linear-gradient(90deg, #5BB1FF, #BD34FE);
+    color: #E7E8EC;
 }
-.delete:hover{
-    display:block;
+.left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
+ 
+.delete {
+    opacity:0;
+    height: 80%;
+    width: 5rem;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    background:#F23B24;
+    border:none;
+    border-radius:5px;
+    color:#ffffff;
+    transition: all 0.2s linear;
+}
+
+.container:hover .delete {
+    opacity:1;
+}
+
+  

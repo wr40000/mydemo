@@ -1,8 +1,23 @@
 .container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+    width: 70%;
+    height: 3rem;
+    margin-left: 15%;
 }
 .main{
     width: 70%;
+}
+.deleteall{
+    letter-spacing: 1px;
+    height: 100%;
+    width: 8rem;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    background:#F23B24;
+    border:none;
+    border-radius:5px;
+    color:#ffffff;
+    transition: all 0.2s linear;
 }

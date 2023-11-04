@@ -1,15 +1,18 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import Item from '../item'
 import todoList from './index.module.css'
 
 export default class List extends Component {
+  // console.log(this.props);
   render() {
+    const {todos} = this.props;
     return (
         <div className={todoList.container}>
-          <Item/>
-          <Item/>
-          <Item/>
-          <Item/>
+          {
+            todos.map((todo)=>{              
+              return <Item {...todo} key={todo.id}/>
+            })
+          }
         </div>
     )
   }
