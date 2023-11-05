@@ -1,8 +1,12 @@
 import { Component } from 'react'
 import todoHeader from './index.module.css'
 import { nanoid } from 'nanoid'
+import PropTypes from 'prop-types'
 
 export default class Header extends Component {
+  static propTypes = {
+    addtodos: PropTypes.func.isRequired
+  }
   handler = (e)=> {
     const {target, keyCode} = e
     if(keyCode == 13){
