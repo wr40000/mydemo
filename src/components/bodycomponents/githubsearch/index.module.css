@@ -1,0 +1,12 @@
+.container{
+    width: 50%;
+    height: 360px;
+    color: #3c3c43c7;
+    display: flex;
+    flex-direction: column;
+    /* y轴 */
+    align-items: center;
+    /* x */
+    justify-content: start;
+    font-size: 1.8rem;
+}
